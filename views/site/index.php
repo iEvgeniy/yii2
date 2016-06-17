@@ -27,29 +27,29 @@ $this->title = 'Мой сайт разработанный на Yii';
     <div class="jumbotron">
         <h1> Поздравляем!</h1>
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
+        <p class="lead">Сайт работает в тестовом режиме!</p>
     </div>
 <?php echo Carousel::widget ( [
     'items' => [
     [
-        'content' => '<img style="width:1200px; height:750px" src="http://nix-tips.ru/wp-content/uploads/2014/11/carousel003.jpg"/>',
-        'caption' => '<h2>Эфективно!</h2><p></p>',
+        'content' => '<img style="width:100%; " src="http://nix-tips.ru/wp-content/uploads/2014/11/carousel003.jpg"/>',
+        'caption' => '<h2>Эфективно!!!</h2><p></p>',
         'options' => []
     ],
      [
-        'content' => '<img style="width:1200px" src="http://nix-tips.ru/wp-content/uploads/2014/11/carousel002.jpg"/>',
+        'content' => '<img style="width:100%" src="http://nix-tips.ru/wp-content/uploads/2014/11/carousel002.jpg"/>',
         'caption' => '<h2>Быстро!</h2><p></p>',
         'options' => []
     ],
      [
-        'content' => '<img style="width:1200px" src="http://nix-tips.ru/wp-content/uploads/2014/11/carousel001.jpg"/>',
+        'content' => '<img style="100%" src="http://nix-tips.ru/wp-content/uploads/2014/11/carousel001.jpg"/>',
         'caption' => '<h2>Долгий эффект!</h2><p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Заказать</a></p>',
 
         'options' => []
     ]
     ],
        'options' => [
-       'style' => 'width:1200px;' // Задаем ширину контейнера
+       'style' => 'width:100%;' // Задаем ширину контейнера
     ]
 ]);
 ?>
@@ -1030,18 +1030,6 @@ Modal yii\bootstrap\Modal
 
 echo 'Надо взять на вооружение.';
 
-Modal::end();
-Modal::begin([
-    'header' => '<h2>Вот это модальное окно!</h2>',
-    'toggleButton' => [
-        'tag' => 'button',
-        'class' => 'btn btn-lg btn-block btn-info',
-        'label' => 'Нажмите здесь, забавная штука!',
-    ]
-]);
- 
-echo 'Надо взять на вооружение.';
- 
 Modal::end();
 ?>
 
