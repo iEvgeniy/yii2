@@ -42,7 +42,7 @@ $this->title = 'Мой сайт разработанный на Yii';
         'options' => []
     ],
      [
-        'content' => '<img style="100%" src="http://nix-tips.ru/wp-content/uploads/2014/11/carousel001.jpg"/>',
+        'content' => '<img style="width:100%" src="http://nix-tips.ru/wp-content/uploads/2014/11/carousel001.jpg"/>',
         'caption' => '<h2>Долгий эффект!</h2><p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Заказать</a></p>',
 
         'options' => []
