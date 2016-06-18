@@ -32,17 +32,17 @@ $this->title = 'Мой сайт разработанный на Yii';
 <?php echo Carousel::widget ( [
     'items' => [
     [
-        'content' => '<img style="width:100%; " src="http://nix-tips.ru/wp-content/uploads/2014/11/carousel003.jpg"/>',
+        'content' => '<img style="width:100%;  height: 750px; " src="http://nix-tips.ru/wp-content/uploads/2014/11/carousel003.jpg"/>',
         'caption' => '<h2>Эфективно!!!</h2><p></p>',
         'options' => []
     ],
      [
-        'content' => '<img style="width:100%" src="http://nix-tips.ru/wp-content/uploads/2014/11/carousel002.jpg"/>',
+        'content' => '<img style="width:100%; height: 750px;" src="http://nix-tips.ru/wp-content/uploads/2014/11/carousel002.jpg"/>',
         'caption' => '<h2>Быстро!</h2><p></p>',
         'options' => []
     ],
      [
-        'content' => '<img style="width:100%" src="http://nix-tips.ru/wp-content/uploads/2014/11/carousel001.jpg"/>',
+        'content' => '<img style="width:100%;  height: 750px;" src="http://nix-tips.ru/wp-content/uploads/2014/11/carousel001.jpg"/>',
         'caption' => '<h2>Долгий эффект!</h2><p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Заказать</a></p>',
 
         'options' => []
